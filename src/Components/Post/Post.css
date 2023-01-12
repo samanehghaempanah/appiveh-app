@@ -1,0 +1,117 @@
+/** @format */
+
+.posts {
+  padding: 15px;
+}
+
+.posts .MuiCardHeader-root {
+  padding-left: 0px !important;
+}
+
+.posts .MuiPaper-root {
+  box-shadow: none !important;
+}
+
+.posts .cardBottom {
+  height: 70px;
+  margin-top: -70px;
+  background: rgb(76 75 75 / 20%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 0 0 30px 30px;
+  padding: 0 20px;
+}
+
+.cardBottom .MuiChip-root {
+  border-radius: 5px !important;
+}
+
+.cardBottom .lastChip {
+  width: 70%;
+  text-align: right;
+}
+
+.posts .dotted-line {
+  width: 8px;
+  border: 3px solid;
+  border-radius: 15px;
+  background-color: black;
+  margin-left: 5px;
+}
+
+.posts .postDotted-line {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.posts .postTime {
+  width: 50%;
+  text-align: right;
+  color: #adabab;
+  font-size: 15px;
+}
+
+@media (min-width: 716px) and (max-width: 890px) {
+  .posts .postTime {
+  padding-right: 3%;
+}
+}
+
+.posts .MuiCardContent-root {
+  padding: 0px !important;
+  cursor: pointer;
+}
+
+.posts .postText {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: justify;
+}
+
+.posts .postActions {
+  color: #adabab !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: stretch;
+  margin-left: 3%;
+}
+
+@media (min-width: 768px) and (max-width: 809px) {
+  .posts .postActions {
+    margin-left: 0% !important;
+  }
+}
+
+.postActions .actionItems {
+  margin-top: 20px !important;
+  text-align: center;
+  font-size: 1.6em;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 809px) {
+  .postActions .actionItems {
+    font-size: 1.4em !important;
+  }
+}
+
+.postActions .actionItems span {
+  font-size: 0.5em;
+}
+
+.postActions .actionItems span {
+  color: #adabab;
+}
+
+.postActions .actionItems .actionLikeClicked {
+  color: red;
+}
+
+.postActions .actionItems .actionBookmarkClicked {
+  color: blue;
+}

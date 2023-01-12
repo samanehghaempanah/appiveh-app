@@ -1,0 +1,66 @@
+/** @format */
+
+.topBar {
+  height: 190px;
+  background-color: #0000cd;
+  border: 1px solid white;
+  border-radius: 0px 0px 30px 30px;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.topBarOpen {
+  height: 320px !important;
+}
+
+.topBar-in {
+  height: 150px;
+  padding: 17px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fffafa;
+  border: 1px solid transparent;
+  border-radius: 0px 0px 30px 30px;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+.topBar-in > div {
+  padding-inline: 5px;
+}
+
+.avatarBorder {
+  background: linear-gradient(to top, purple, blue);
+  padding: 2px;
+  border-radius: 25px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+}
+
+.avatar img {
+  border: 5px solid #fffafa;
+  border-radius: 30%;
+}
+
+.avatarText {
+  font-size: 12px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.badgeItem {
+  color: white;
+  font-size: 13px;
+  vertical-align: sub;
+  margin-left: 33px;
+}
+
+.badgeItem .badge {
+  width: auto;
+  background-color: red;
+  margin-left: 5px;
+}

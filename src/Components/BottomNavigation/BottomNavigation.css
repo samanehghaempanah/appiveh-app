@@ -1,0 +1,59 @@
+/** @format */
+.BottomNavigationParent {
+  width: 50% !important;
+}
+
+@media only screen and (max-width : 768px) {
+  .BottomNavigationParent {
+    width: 100% !important;
+  }
+}
+
+.BottomNavigation {
+  width: 50% !important;
+  position: fixed;
+  bottom: 0px;
+  background: rgb(0 0 0 / 20%) !important;
+  backdrop-filter: blur(15px) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+}
+
+@media only screen and (max-width : 768px) {
+  .BottomNavigation {
+    width: 100% !important;
+  }
+}
+
+.BottomNavigation .MuiBottomNavigation-root {
+  background-color: transparent !important;
+}
+
+.BottomNavigation .MuiSvgIcon-root,
+.MuiBottomNavigationAction-label {
+  color: white !important;
+}
+
+.BottomNavigationParent {
+  position: fixed;
+  bottom: 0px;
+}
+
+.BottomNavigationParent .addBottom {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(98 98 98 / 20%);
+  border: 22px solid transparent !important;
+  backdrop-filter: blur(15px) !important;
+  color: white;
+  border-radius: 50%;
+  position: relative;
+  left: 45%;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width : 1150px) {
+  .BottomNavigationParent .addBottom {
+    left: 42% !important;
+  }
+}
